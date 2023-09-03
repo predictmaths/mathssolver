@@ -5,7 +5,7 @@ from langchain import OpenAI, LLMMathChain
 import os
 
 openai.api_key = st.secrets.OpenAIAPI.openai_api_key
-llm = OpenAI(temperature=0)
+llm = OpenAI(openai_api_key= st.secrets.OpenAIAPI.openai_api_key)
 llm_math = LLMMathChain.from_llm(llm, verbose=True)
 
 def main():
