@@ -1,5 +1,6 @@
 #Complex Word Math Problem Solver App
 import streamlit as st
+import openai
 from langchain import OpenAI, LLMMathChain
 import os
 
