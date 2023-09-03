@@ -1,0 +1,10 @@
+opencv-contrib-python-headless
+tensorflow
+streamlit-cropper
+matplotlib
+plotly
+easyocr
+googletrans
+gtts
+langchain
+openai
